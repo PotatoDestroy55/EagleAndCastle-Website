@@ -21,17 +21,28 @@ body {
 
             &:nth-of-type(1)
             {
-                background-image: url(/resources/Group\ 4.svg);
+                background-image: url(/resources/castle_eagle_back.png);
+                background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
                 color: blue;
             }
             &:nth-of-type(2)
             {
-                background-color: rgb(82, 82, 82);
+				background-image: url(/resources/museum_belize_back.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+
                 color: green;
             }
             &:nth-of-type(3)
             {
-                background-color: rgb(140, 140, 140);
+				background-image: url(/resources/belmopan_back.png);
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+
                 color: rgb(243, 251, 1);
             }
 
