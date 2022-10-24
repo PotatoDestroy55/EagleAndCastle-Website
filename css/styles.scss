@@ -10,6 +10,7 @@ body {
 
     #navContainer{
         padding-top: 20px;
+        width: 100%;
         position: fixed; 
         display: flex;
 		justify-content: space-between;
@@ -22,8 +23,11 @@ body {
             height: auto;
         }
         #menu{
-            padding-top: 50px;
-			padding-left: 60em;
+            padding-top: 50px;	
+            width: 100%;
+            display: flex;
+            flex-direction: row-reverse;
+            background-color: aqua;
         }
         /* Cambio de buttons a etiqueta <a> para realizar el scroll */
         a{

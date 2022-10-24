@@ -9,6 +9,7 @@ body {
 }
 body #navContainer {
   padding-top: 20px;
+  width: 100%;
   position: fixed;
   display: flex;
   justify-content: space-between;
@@ -33,7 +34,10 @@ body #navContainer div img {
 }
 body #navContainer #menu {
   padding-top: 50px;
-  padding-left: 60em;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: aqua;
 }
 body #navContainer a {
   text-decoration: none;
