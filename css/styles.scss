@@ -3,6 +3,37 @@ body {
     height: 100vh;
     margin: 0;
 
+    #navContainer{
+        padding-top: 20px;
+        position: fixed; 
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;  
+
+        img{
+            padding-left: 2em;
+            width: 120px;
+            height: auto;
+        }
+        #buttons{
+            padding-top: 50px;
+            padding-left: 50em;
+        }
+        button{
+            padding-left: 2em;
+            display: inline-block;
+            border: none;
+	        outline: none;
+	        background-color: transparent;
+            color: white;
+            font-family: 'Jacques Francois', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+        }
+    }
+
+    
+
     .container
 	{
         width: 100%;
@@ -12,7 +43,7 @@ body {
 
         section 
 		{
-			display: flex	;
+			display: flex;
             justify-content: center;
             align-items: center;
             width: 100%;
