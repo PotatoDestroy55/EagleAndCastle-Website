@@ -1,6 +1,6 @@
 const botonIrUs = document.querySelector("#botonIrUs");
 
-botonIrArriba.addEventListener("click", function(){
+botonIrUs.addEventListener("click", function(){
 	console.log('test');
 	window.scrollTo({
 		top:0,
@@ -12,7 +12,7 @@ botonIrArriba.addEventListener("click", function(){
 
 const botonIrWork = document.querySelector("#botonIrWork");
 
-botonIrProyectos.addEventListener("click", function(){
+botonIrWork.addEventListener("click", function(){
 	console.log('test');
 	window.scrollTo({
 		top:600,
@@ -24,7 +24,7 @@ botonIrProyectos.addEventListener("click", function(){
 
 const botonIrContact = document.querySelector("#botonIrContact");
 
-botonIrContactos.addEventListener("click", function(){
+botonIrContact.addEventListener("click", function(){
 	console.log('test');
 	window.scrollTo({
 		top:1250,
