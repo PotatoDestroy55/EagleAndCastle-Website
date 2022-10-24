@@ -8,9 +8,6 @@ body {
     height: 100vh;
     margin: 0;
 
-
-    
-
     #navContainer{
         padding-top: 20px;
         position: fixed; 
@@ -24,9 +21,9 @@ body {
             width: 100px;
             height: auto;
         }
-        #buttons{
-            padding-top: 35px;
-			padding-left: 50em;
+        #menu{
+            padding-top: 50px;
+			padding-left: 60em;
         }
         /* Cambio de buttons a etiqueta <a> para realizar el scroll */
         a{
@@ -35,7 +32,7 @@ body {
             font-family: 'Jacques Francois', sans-serif;
             font-weight: 400;
             font-size: 20px;
-            margin: 5em;
+            padding-left: 1em;
         }
 
         /*button{
